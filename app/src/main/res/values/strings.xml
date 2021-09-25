@@ -7,7 +7,7 @@
     <string name="enter_your_password">Enter Your Password</string>
     <string name="string_forgot_password">Forgot Password</string>
     <string name="login_btn">Login</string>
-    <string name="do_not_have_an_account">Do not have an account</string>
+    <string name="do_not_have_an_account">Do not have an account?</string>
     <string name="sing_up_link">Sing Up</string>
     <string name="sing_up">Lets get started!</string>
     <string name="first_name">First Name</string>
@@ -23,4 +23,5 @@
     <string name="heading2">FORGET\nPASSWORD</string>
     <string name="ForgetP_detail">Provide your account\'s mail for which you want\nto reset your password!</string>
     <string name="next">Next</string>
+    <string name="heading_home">HOME</string>
 </resources>

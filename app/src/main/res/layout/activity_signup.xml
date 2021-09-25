@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".signup">
+    tools:context=".Signup">
 
 
     <ImageView
@@ -35,12 +35,12 @@
         android:layout_height="40dp"
         android:layout_below="@id/heading_signup"
 
-        android:inputType="textEmailAddress"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:background="@drawable/round_stroke"
-
         android:hint="@string/first_name"
+
+        android:inputType="textEmailAddress"
         android:paddingStart="20dp"
         android:textColorHint="@color/half_white"
 
@@ -52,12 +52,12 @@
         android:layout_height="40dp"
         android:layout_below="@id/FName"
 
-        android:inputType="textPersonName"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:background="@drawable/round_stroke"
-
         android:hint="@string/last_name"
+
+        android:inputType="textPersonName"
         android:paddingStart="20dp"
         android:textColorHint="@color/half_white"
 
@@ -90,8 +90,8 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/round_stroke"
 
-        android:inputType="textPassword"
         android:hint="@string/password"
+        android:inputType="textPassword"
         android:paddingStart="20dp"
         android:textColorHint="@color/half_white"
 

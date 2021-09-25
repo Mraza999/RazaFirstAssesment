@@ -3,10 +3,9 @@ package com.example.razafirstassesment
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_login.*
 
-class login : AppCompatActivity() {
+class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
@@ -16,7 +15,7 @@ class login : AppCompatActivity() {
 
         forgotpass.setOnClickListener()
         {
-            val i = Intent(this, forgetPaaword::class.java)
+            val i = Intent(this, ForgetPass::class.java)
             startActivity(i)
         }
 
@@ -24,7 +23,7 @@ class login : AppCompatActivity() {
 
         signuplink.setOnClickListener()
         {
-            val i = Intent(this, signup::class.java)
+            val i = Intent(this, Signup::class.java)
             startActivity(i)
         }
 
@@ -57,7 +56,7 @@ class login : AppCompatActivity() {
             return
         }
 
-        val i =Intent(this,MainActivity::class.java)
+        val i =Intent(this,Home::class.java)
         i.putExtra("message",dataUsername)
         startActivity(i)
     }

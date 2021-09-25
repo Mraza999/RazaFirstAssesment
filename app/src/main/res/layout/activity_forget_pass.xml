@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".forgetPaaword">
+    tools:context=".ForgetPass">
 
 
 
@@ -61,10 +61,10 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:background="@drawable/round_stroke"
-        android:hint="@string/email"
-
         android:drawableStart="@drawable/ic_baseline_email_24"
+
         android:drawablePadding="10dp"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:paddingStart="20dp"
         android:textColorHint="@color/half_white"
@@ -72,7 +72,7 @@
         />
 
     <Button
-        android:id="@+id/Fpass_btn"
+        android:id="@+id/ForgetP_btn"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/EmailForget"
@@ -83,8 +83,8 @@
         android:backgroundTint="@color/MyPatternCol"
         android:fontFamily="@font/rajdhani_bold"
         android:text="@string/next"
-
         android:textSize="20sp"
+        android:onClick="ForgetE_btn"
 
         />
 
@@ -93,7 +93,7 @@
         android:layout_height="wrap_content"
         android:scaleType="fitXY"
         android:src="@drawable/ic_wave_pic"
-        android:layout_below="@+id/Fpass_btn"
+        android:layout_below="@+id/ForgetP_btn"
         />
 
 

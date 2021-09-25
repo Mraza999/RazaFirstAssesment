@@ -11,7 +11,7 @@
         android:theme="@style/Theme.RazaFirstAssesment">
 
         <activity
-            android:name=".splash"
+            android:name=".Splash"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -23,25 +23,25 @@
 
 
         <activity
-            android:name=".forgetPaaword"
+            android:name=".ForgetPass"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
 
 
         <activity
-            android:name=".signup"
+            android:name=".Signup"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
 
 
         <activity
-            android:name=".login"
+            android:name=".Login"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
 
         <activity
-            android:name=".MainActivity"
+            android:name=".Home"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar">
 

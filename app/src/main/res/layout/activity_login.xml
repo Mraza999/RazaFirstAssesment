@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login">
+    tools:context=".Login">
 
 
     <ImageView
@@ -136,11 +136,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/do_not_have_an_account"
-
         android:layout_below="@id/login_btn"
+
+        android:layout_marginStart="95dp"
         android:layout_marginTop="20dp"
-        android:layout_marginStart="100dp"
+        android:text="@string/do_not_have_an_account"
 
         />
 
@@ -150,7 +150,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/login_btn"
 
-        android:layout_marginStart="260dp"
+        android:layout_marginStart="255dp"
         android:layout_marginTop="20dp"
         android:text="@string/sing_up_link"
 

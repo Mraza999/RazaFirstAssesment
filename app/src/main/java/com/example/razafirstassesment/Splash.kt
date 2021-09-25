@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 
-class splash : AppCompatActivity() {
+class Splash : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
@@ -15,7 +15,7 @@ class splash : AppCompatActivity() {
 
     private fun splashInt()
     {
-        val i = Intent(this,login::class.java)
+        val i = Intent(this,Login::class.java)
         startActivity(i)
         finish()
 
